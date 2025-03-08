@@ -1,0 +1,129 @@
+.labor-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 213vh;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2; /* No background image */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 15px 20px;
+  color: white;
+  position: relative;
+}
+
+.app-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Navigation Menu inside Navbar */
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.menu-item:hover, 
+.menu-item.active {
+  background-color: #388e3c;
+}
+
+/* Profile Icon */
+.profile-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Dashboard Body */
+.dashboard-body {
+  flex: 1;
+  padding: 30px;
+  background-color: white;
+  border-left: 2px solid #ddd;
+  overflow-y: auto;
+}
+
+/* Dashboard Title */
+.dashboard-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Date and Time Fields */
+.date-range, 
+.time-range {
+  display: flex;
+  gap: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.profile-icon.img{
+  border: radius 100%;;
+}

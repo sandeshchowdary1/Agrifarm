@@ -1,0 +1,93 @@
+/* MyActivities.css */
+.my-activities-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .labor-profiles {
+    /* display: grid; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .profile-card-FMA {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .labor-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .highlighted {
+    background-color: #ffdf00;
+    padding: 3px 8px;
+    border-radius: 5px;
+  }
+  
+  .address,
+  .date-time {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods {
+    margin-bottom: 15px;
+  }
+  
+  .payment-method {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .rating {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .accept-request-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .accept-request-button:hover {
+    background-color: #45a049;
+  }
+  
+  .accepted-status {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  

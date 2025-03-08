@@ -1,0 +1,68 @@
+/* MyActivities.css */
+.farmer-profile-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .farmer-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .farmer-photo {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .farmer-details {
+    text-align: center;
+  }
+  
+  .farmer-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .highlighted {
+    background-color: yellow;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
+  .address,
+  .date-time,
+  .payment-methods {
+    margin: 8px 0;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Accept Request Button Styling */
+  .accept-request-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .accept-request-button:hover {
+    background-color: #45a049;
+  }
+  
+  .accepted-status {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
